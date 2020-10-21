@@ -189,3 +189,11 @@ ul, ol {
     float: left;
     margin-left: 40px;
 }
+
+.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+}
