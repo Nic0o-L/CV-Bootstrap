@@ -45,6 +45,44 @@ section .heading h2{
 ul, ol {
     list-style: none;
 }
+
+/* MENU */
+
+.navbar {
+    font-size: 12px;
+    background: #d82c2e;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-style: none;
+}
+
+.incon-bar {
+    background-color: #fff !important;
+}
+
 /* ABOUT */
 
 #about {
@@ -284,4 +322,27 @@ ul, ol {
 #portfolio .thumbnail img:hover {
     filter: none;
     -webkit-filter: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+
+footer .glyphicon {
+    font-size: 25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px;
+}
+
+footer .glyphicon:hover {
+    font-size: 27px;
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: normal;
 }
